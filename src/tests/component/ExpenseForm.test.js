@@ -43,7 +43,7 @@ test('should set note on textarea change', () => {
 
 test('should set amount if valid input', () => {
     // 23.50 MUST BE VALID
-    const value = '23,50';
+    const value = '23.50';
     const wrapper = shallow(<ExpenseForm />);
     wrapper.find('input').at(1).simulate('change', {
         target: { value }
@@ -53,7 +53,7 @@ test('should set amount if valid input', () => {
 
 test('should not set amount if invalid input', () => {
     // 12.122 MUST BE INVALID
-    const value = 'New 12,122';
+    const value = 'New 12.122';
     const wrapper = shallow(<ExpenseForm />);
     wrapper.find('input').at(1).simulate('change', {
         target: { value }

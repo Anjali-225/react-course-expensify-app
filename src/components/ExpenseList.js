@@ -10,7 +10,7 @@ export const ExpenseList = (props) => (
                 <p>No expenses</p>
             ) : (
                 props.expenses.map((expense) => {
-                    return <ExpenseListItem key={expense.id} {...expense} />
+                    return <ExpenseListItem key={expense.id} {...expense} />;
                 })
             )
         } 
@@ -23,5 +23,5 @@ const mapStateToProps = (state) => {
     };
 };
 
-export default connect( mapStateToProps)(ExpenseList);
+export default connect(mapStateToProps)(ExpenseList);
 

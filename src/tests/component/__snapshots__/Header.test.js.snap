@@ -26,25 +26,13 @@ ShallowWrapper {
           exact={true}
           to="/"
 >
-          Dashboard
+          Dashboard  
 </NavLink>,
         <NavLink
           activeClassName="is-active"
           to="/create"
 >
-          Create Expense
-</NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          to="/edit"
->
-          Edit Expense
-</NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          to="/help"
->
-          Help
+            Create Expense
 </NavLink>,
       ],
     },
@@ -67,12 +55,12 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "activeClassName": "is-active",
-          "children": "Dashboard",
+          "children": "Dashboard  ",
           "exact": true,
           "to": "/",
         },
         "ref": null,
-        "rendered": "Dashboard",
+        "rendered": "Dashboard  ",
         "type": [Function],
       },
       Object {
@@ -81,37 +69,11 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "activeClassName": "is-active",
-          "children": "Create Expense",
+          "children": "  Create Expense",
           "to": "/create",
         },
         "ref": null,
-        "rendered": "Create Expense",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "children": "Edit Expense",
-          "to": "/edit",
-        },
-        "ref": null,
-        "rendered": "Edit Expense",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "children": "Help",
-          "to": "/help",
-        },
-        "ref": null,
-        "rendered": "Help",
+        "rendered": "  Create Expense",
         "type": [Function],
       },
     ],
@@ -132,25 +94,13 @@ ShallowWrapper {
             exact={true}
             to="/"
 >
-            Dashboard
+            Dashboard  
 </NavLink>,
           <NavLink
             activeClassName="is-active"
             to="/create"
 >
-            Create Expense
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            to="/edit"
->
-            Edit Expense
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            to="/help"
->
-            Help
+              Create Expense
 </NavLink>,
         ],
       },
@@ -173,12 +123,12 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "activeClassName": "is-active",
-            "children": "Dashboard",
+            "children": "Dashboard  ",
             "exact": true,
             "to": "/",
           },
           "ref": null,
-          "rendered": "Dashboard",
+          "rendered": "Dashboard  ",
           "type": [Function],
         },
         Object {
@@ -187,37 +137,11 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "activeClassName": "is-active",
-            "children": "Create Expense",
+            "children": "  Create Expense",
             "to": "/create",
           },
           "ref": null,
-          "rendered": "Create Expense",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "children": "Edit Expense",
-            "to": "/edit",
-          },
-          "ref": null,
-          "rendered": "Edit Expense",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "children": "Help",
-            "to": "/help",
-          },
-          "ref": null,
-          "rendered": "Help",
+          "rendered": "  Create Expense",
           "type": [Function],
         },
       ],

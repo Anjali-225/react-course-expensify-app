@@ -113,7 +113,7 @@ ShallowWrapper {
           />
           <textarea
                     onChange={[Function]}
-                    placeholder="Add a note for your expens (optional)"
+                    placeholder="Add a note for your expense (optional)"
                     value=""
           />
           <button>
@@ -222,7 +222,7 @@ ShallowWrapper {
 />,
             <textarea
               onChange={[Function]}
-              placeholder="Add a note for your expens (optional)"
+              placeholder="Add a note for your expense (optional)"
               value=""
 />,
             <button>
@@ -350,7 +350,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "onChange": [Function],
-              "placeholder": "Add a note for your expens (optional)",
+              "placeholder": "Add a note for your expense (optional)",
               "value": "",
             },
             "ref": null,
@@ -476,7 +476,7 @@ ShallowWrapper {
             />
             <textarea
                         onChange={[Function]}
-                        placeholder="Add a note for your expens (optional)"
+                        placeholder="Add a note for your expense (optional)"
                         value=""
             />
             <button>
@@ -585,7 +585,7 @@ ShallowWrapper {
 />,
               <textarea
                 onChange={[Function]}
-                placeholder="Add a note for your expens (optional)"
+                placeholder="Add a note for your expense (optional)"
                 value=""
 />,
               <button>
@@ -713,7 +713,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "onChange": [Function],
-                "placeholder": "Add a note for your expens (optional)",
+                "placeholder": "Add a note for your expense (optional)",
                 "value": "",
               },
               "ref": null,
@@ -864,7 +864,7 @@ ShallowWrapper {
           />
           <textarea
                     onChange={[Function]}
-                    placeholder="Add a note for your expens (optional)"
+                    placeholder="Add a note for your expense (optional)"
                     value=""
           />
           <button>
@@ -989,7 +989,7 @@ ShallowWrapper {
 />,
             <textarea
               onChange={[Function]}
-              placeholder="Add a note for your expens (optional)"
+              placeholder="Add a note for your expense (optional)"
               value=""
 />,
             <button>
@@ -1117,7 +1117,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "onChange": [Function],
-              "placeholder": "Add a note for your expens (optional)",
+              "placeholder": "Add a note for your expense (optional)",
               "value": "",
             },
             "ref": null,
@@ -1246,7 +1246,7 @@ ShallowWrapper {
             />
             <textarea
                         onChange={[Function]}
-                        placeholder="Add a note for your expens (optional)"
+                        placeholder="Add a note for your expense (optional)"
                         value=""
             />
             <button>
@@ -1371,7 +1371,7 @@ ShallowWrapper {
 />,
               <textarea
                 onChange={[Function]}
-                placeholder="Add a note for your expens (optional)"
+                placeholder="Add a note for your expense (optional)"
                 value=""
 />,
               <button>
@@ -1499,7 +1499,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "onChange": [Function],
-                "placeholder": "Add a note for your expens (optional)",
+                "placeholder": "Add a note for your expense (optional)",
                 "value": "",
               },
               "ref": null,
@@ -1657,7 +1657,7 @@ ShallowWrapper {
           />
           <textarea
                     onChange={[Function]}
-                    placeholder="Add a note for your expens (optional)"
+                    placeholder="Add a note for your expense (optional)"
                     value=""
           />
           <button>
@@ -1766,7 +1766,7 @@ ShallowWrapper {
 />,
             <textarea
               onChange={[Function]}
-              placeholder="Add a note for your expens (optional)"
+              placeholder="Add a note for your expense (optional)"
               value=""
 />,
             <button>
@@ -1894,7 +1894,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "onChange": [Function],
-              "placeholder": "Add a note for your expens (optional)",
+              "placeholder": "Add a note for your expense (optional)",
               "value": "",
             },
             "ref": null,
@@ -2020,7 +2020,7 @@ ShallowWrapper {
             />
             <textarea
                         onChange={[Function]}
-                        placeholder="Add a note for your expens (optional)"
+                        placeholder="Add a note for your expense (optional)"
                         value=""
             />
             <button>
@@ -2129,7 +2129,7 @@ ShallowWrapper {
 />,
               <textarea
                 onChange={[Function]}
-                placeholder="Add a note for your expens (optional)"
+                placeholder="Add a note for your expense (optional)"
                 value=""
 />,
               <button>
@@ -2257,7 +2257,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "onChange": [Function],
-                "placeholder": "Add a note for your expens (optional)",
+                "placeholder": "Add a note for your expense (optional)",
                 "value": "",
               },
               "ref": null,
