@@ -16,7 +16,12 @@ const database = firebase.database();
 database.ref().set({
     name: 'Anjali', 
     age: 19,
-    isSingle: true,
+    // isSingle: true,
+    stressLevel: 8,
+    job: {
+        title: 'Software Developer',
+        company: 'Google'
+    },
     location: {
         city: 'Woodmead',
         country: 'South Africa'
@@ -27,11 +32,15 @@ database.ref().set({
     console.log('This failed', e);
 });
 
-// database.ref('isSingle').set(null);
+database.ref().update({
+    stressLevel: 9,
+    'job/company': 'Amazon',
+    'location/city': 'Seattle'
+});
 
-database.ref('isSingle').remove()
-  .then(() => {
-      console.log("Remove succeeded.");
-  }).catch((e) => {
-      console.log("Remove Falied: " + e);
-  });
+// database.ref('isSingle').remove()
+//   .then(() => {
+//       console.log("Remove succeeded.");
+//   }).catch((e) => {
+//       console.log("Remove Falied: " + e);
+//   });
