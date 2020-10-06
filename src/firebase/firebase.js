@@ -7,8 +7,6 @@ const config = {
     projectId: "expensify-66f81",
     storageBucket: "expensify-66f81.appspot.com",
     messagingSenderId: "689678713970",
-    // appId: "1:689678713970:web:a2985c1fa41b1198fc2eeb",
-    // measurementId: "G-2W3PJJBRET"
   };
 
 firebase.initializeApp(config);
@@ -29,19 +27,11 @@ database.ref().set({
     console.log('This failed', e);
 });
 
-// database.ref().set("This is my data.");
+// database.ref('isSingle').set(null);
 
-// database.ref('age').set(18);
-// database.ref('location/city').set('Rivonia');
-
-// attributes, height, weight
-database.ref('attributes').set({
-    height: 150,
-    weight: 60
-}).then(() => {
-    console.log('Second set call worked');
-}).catch((e) => {
-    console.log('Things didnt work for the second error', e);
-});
-
-// console.log('I made a request to change the data');
+database.ref('isSingle').remove()
+  .then(() => {
+      console.log("Remove succeeded.");
+  }).catch((e) => {
+      console.log("Remove Falied: " + e);
+  });
