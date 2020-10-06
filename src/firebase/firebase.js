@@ -23,17 +23,25 @@ database.ref().set({
         city: 'Woodmead',
         country: 'South Africa'
     }
+}).then(() => {
+    console.log('Data is saved');
+}).catch((e) => {
+    console.log('This failed', e);
 });
 
 // database.ref().set("This is my data.");
 
-database.ref('age').set(18);
-database.ref('location/city').set('Rivonia');
+// database.ref('age').set(18);
+// database.ref('location/city').set('Rivonia');
 
 // attributes, height, weight
 database.ref('attributes').set({
     height: 150,
     weight: 60
+}).then(() => {
+    console.log('Second set call worked');
+}).catch((e) => {
+    console.log('Things didnt work for the second error', e);
 });
 
-console.log('I made a request to change the data');
+// console.log('I made a request to change the data');
