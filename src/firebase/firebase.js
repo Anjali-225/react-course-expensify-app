@@ -11,8 +11,27 @@ const config = {
     // measurementId: "G-2W3PJJBRET"
   };
 
-  firebase.initializeApp(config);
+firebase.initializeApp(config);
 
-  firebase.database().ref().set({
-      name: 'Anjali'
-  });
+const database = firebase.database();
+
+database.ref().set({
+    name: 'Anjali', 
+    age: 19,
+    isSingle: true,
+    location: {
+        city: 'Woodmead',
+        country: 'South Africa'
+    }
+});
+
+// database.ref().set("This is my data.");
+
+database.ref('age').set(18);
+database.ref('location/city').set('Rivonia');
+
+// attributes, height, weight
+database.ref('attributes').set({
+    height: 150,
+    weight: 60
+})
