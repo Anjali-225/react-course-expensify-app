@@ -34,4 +34,6 @@ database.ref('location/city').set('Rivonia');
 database.ref('attributes').set({
     height: 150,
     weight: 60
-})
+});
+
+console.log('I made a request to change the data');
