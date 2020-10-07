@@ -13,20 +13,22 @@ firebase.initializeApp(config);
 
 const database = firebase.database();
 
-// subscribe to the child_removed
-database.ref('expenses').on('child_removed', (snapshot) => {
-  console.log(snapshot.key, snapshot.val());
-});
+export { firebase, database as default };
 
-// subscribe to the child_changed
-database.ref('expenses').on('child_changed', (snapshot) => {
-  console.log(snapshot.key, snapshot.val());
-});
+// // subscribe to the child_removed
+// database.ref('expenses').on('child_removed', (snapshot) => {
+//   console.log(snapshot.key, snapshot.val());
+// });
 
-// subscribe to the child_added
-database.ref('expenses').on('child_added', (snapshot) => {
-  console.log(snapshot.key, snapshot.val());
-});
+// // subscribe to the child_changed
+// database.ref('expenses').on('child_changed', (snapshot) => {
+//   console.log(snapshot.key, snapshot.val());
+// });
+
+// // subscribe to the child_added
+// database.ref('expenses').on('child_added', (snapshot) => {
+//   console.log(snapshot.key, snapshot.val());
+// });
 
 // database.ref('expenses').on('value', (snapshot) => {
 //   const expenses = [];
@@ -61,8 +63,6 @@ database.ref('expenses').on('child_added', (snapshot) => {
 //   amount: 109500,
 //   createdAt: 1231564565213
 // });
-
-
 
 // database.ref('notes/-MJ1soOGvmbuJgMH3gwT').remove();
 
