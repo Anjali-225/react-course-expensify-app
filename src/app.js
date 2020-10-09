@@ -26,7 +26,7 @@ store.dispatch(startSetExpenses()).then(() => {
     ReactDOM.render(jsx, document.getElementById('app'));
 });
 
-firebase.auth().onAuthStateChange(() => {
+firebase.auth().onAuthStateChanged((user) => {
     if (user){
         console.log('Log in');
     } else {
