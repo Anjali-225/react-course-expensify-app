@@ -25,8 +25,7 @@ ShallowWrapper {
 </h1>,
         <NavLink
           activeClassName="is-active"
-          exact={true}
-          to="/"
+          to="/dashboard"
 >
           Dashboard  
 </NavLink>,
@@ -63,8 +62,7 @@ ShallowWrapper {
         "props": Object {
           "activeClassName": "is-active",
           "children": "Dashboard  ",
-          "exact": true,
-          "to": "/",
+          "to": "/dashboard",
         },
         "ref": null,
         "rendered": "Dashboard  ",
@@ -110,8 +108,7 @@ ShallowWrapper {
 </h1>,
           <NavLink
             activeClassName="is-active"
-            exact={true}
-            to="/"
+            to="/dashboard"
 >
             Dashboard  
 </NavLink>,
@@ -148,8 +145,7 @@ ShallowWrapper {
           "props": Object {
             "activeClassName": "is-active",
             "children": "Dashboard  ",
-            "exact": true,
-            "to": "/",
+            "to": "/dashboard",
           },
           "ref": null,
           "rendered": "Dashboard  ",
